@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "multibossbarfix",
+  "version": "${version}",
+  "name": "Multi Boss Bar Fix",
+  "description": "Fixes MC-165036, which causes all notched style boss bars rendered after the first one to render incorrectly.",
+  "authors": [
+    "ADudeCalledLeo"
+  ],
+  "contributors": [],
+  "contact": {
+    "homepage": "https://github.com/Leo40Git/MultiBossBarFix",
+    "issues": "https://github.com/Leo40Git/MultiBossBarFix/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/multibossbarfix/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "adudecalledleo.multibossbarfix.MultiBossBarFixMod"
+    ]
+  },
+  "mixins": [
+    "multibossbarfix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.4.0"
+  }
+}

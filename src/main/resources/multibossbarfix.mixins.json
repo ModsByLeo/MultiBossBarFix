@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "adudecalledleo.multibossbarfix.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "MixinBossBarHud"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
